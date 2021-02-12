@@ -1,4 +1,4 @@
-var nombre ,apellido = 'Lifszyc';
+var nombre ,apellido = 'Lifszyc'; //formas de declaración y de inicializacion de variables
 nombre = 'Sacha';
 var edad= 28;
 
