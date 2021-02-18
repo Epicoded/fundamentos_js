@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Datos Inmutables</title>
+</head>
+<body>
+    <script>
+        /* 
+        Las estructuras de datos inmutables forman parte
+        de los principios de la Programación Funcional y
+        nos permiten evitar tener efectos colaterales en
+        los datos. En otras palabras, que hayan modificaciones
+        en las variables sin nuestro consentimiento, 
+        produciendo comportamientos inesperados en el programa.
+        */
+        const eduardo = {
+            nombre: 'Eduardo',
+            apellido: 'Perez',
+            edad: 43
+        }
+
+        /* const cumpleanos = persona => persona.edad++ */
+
+        const cumpleanosInmutable = persona => ({
+            ...persona,
+            edad: persona.edad + 1
+        })
+ 
+    </script>
+</body>
+</html>
